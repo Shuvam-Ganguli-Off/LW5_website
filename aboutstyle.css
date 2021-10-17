@@ -1,0 +1,114 @@
+.header {
+padding: 25px;
+text-align: center;
+background: white;
+}
+.logo{
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+width: 75px;
+height: auto;
+}
+.header h1 {
+font-size: 40px;
+}
+.topnav {
+overflow: hidden;
+margin-bottom: 10px;
+background-color: rgb(220, 160, 100);
+}
+.topnav a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 15px 15px;
+text-decoration: none;
+}
+.topnav a:hover {
+background-color: rgb(20, 75, 110);
+color: white;
+}
+.clmleft {
+float: left;
+width: 50%;
+padding: 15px;
+padding-left: 90px;
+}
+.clmright {
+float: left;
+width: 40%;
+padding: 20px ;
+padding-right: 50px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.border{
+border-style: solid;
+border-width: 2px;
+border-radius: 5px;
+}
+.tile {
+width: 65%;
+height: 200px;
+background-color:rgb(220, 190, 160);
+padding: 50px;
+text-align: left;
+margin-top: 50px;
+font-family: Verdana, Tahoma, sans-serif;
+font-size: 30px;
+border-radius: 5px;
+color: white;
+}
+.par{
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 400px;
+font-family: Verdana, Tahoma, sans-serif;
+}
+.content{
+font-family: Verdana, Tahoma, sans-serif;
+color: rgb(220, 190, 160);
+}
+.img{
+width: 100%;
+height: 700px;
+float: left;
+border-radius: 5px;
+}
+.btn{
+width:30%;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: rgb(220, 160, 100);
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 10px;
+}
+input[type=submit]:hover {
+background-color: rgb(20, 75, 110);
+}
+.footer {
+padding: 10px;
+background:whitesmoke;
+margin-top: 20px;
+padding-bottom: 1px;
+}
+.columnfoot {
+float: left;
+width: 31%;
+padding: 15px;
+}
+.rowfoot:after {
+content: "";
+display: table;
+clear: both;
+}

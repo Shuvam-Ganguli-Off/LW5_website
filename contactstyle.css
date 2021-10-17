@@ -1,0 +1,139 @@
+body {
+background-color: rgb(125, 125, 200);
+color: rgb(100, 100, 0);
+}
+.header {
+padding: 25px;
+text-align: center;
+background: white;
+}
+.logo{
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+width: 80px;
+height: auto;
+}
+.header h1 {
+font-size: 40px;
+}
+.topnav {
+overflow: hidden;
+background-color: rgb(150, 150, 150);
+}
+.topnav a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 15px 15px;
+text-decoration: none;
+}
+.topnav a:hover {
+background-color: rgb(200, 200, 250);
+color: black;
+}
+.h1{
+text-align: center;
+padding-top: 20px;
+}
+.columnleft {
+float: left;
+width: 45%;
+padding: 15px ;
+margin: 60px;
+}
+.columnright {
+float: left;
+width: 55%;
+height:auto;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.formback{
+background-color: rgb(200, 200, 250);
+border-radius: 25px;
+box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 4), 0 6px 20px 0 rgba(4, 4, 4, 4);
+}
+.contentleft{
+padding-left: 40px;
+}
+.side{
+padding-left: 150px;
+}
+.alignment{
+border: 1px solid black;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 300px;
+margin-left: 250px;
+}
+.head{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnall{
+padding-bottom: 20px;
+padding-left: 40px;
+}
+.btn{
+width:20%;
+margin-left: 10px;
+background-color: blueviolet;
+border: none;
+color: white;
+padding: 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 12px;
+}
+input[type=text],input[type=email] {
+width: 30%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 7px;
+box-sizing: border-box;
+}
+input:hover {
+background-color: rgb(250, 200, 220);
+color: rgb(40, 40, 40);
+}
+.text{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+box-sizing: border-box;
+border-radius:7px;
+}
+.content{
+width:40%;
+margin-top: 200px;
+background-color: rgb(250, 250, 250);
+border-radius: 25px;
+box-sizing: border-box;
+border-radius:7px;
+box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 4), 0 6px 20px 0 rgba(4, 4, 4, 4);    
+}
+.footer {
+padding: 10px;
+background:whitesmoke;
+margin-top: 20px;
+padding-bottom: 1px;
+}
+.columnfoot {
+float: left;
+width: 31%;
+padding: 15px;
+}
+.rowfoot:after {
+content: "";
+display: table;
+clear: both;
+}

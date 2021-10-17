@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+body{background-color: rgb(150, 180, 230);}
+.header {
+padding: 25px;
+text-align: center;
+background: white;
+}
+.logo{
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+width: 80px;
+height: auto;
+}
+.header h1 {
+font-size: 40px;
+}
+.topnav {
+overflow: hidden;
+background-color: rgb(10, 150, 100);
+}
+.topnav a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+padding: 15px 15px;
+text-decoration: none;
+}
+.topnav a:hover {
+background-color: rgb(200, 200, 0);
+color: black;
+}
+.res{
+width:75%;
+height: 500px;
+background-color:white;
+border-radius:25px;
+box-sizing:border-box;
+margin-top:20px;
+margin-left: 200px;
+}
+.profile{
+border-radius:20px;
+box-sizing:border-box;
+}
+.heading{
+margin-top: 50px;
+color: rgb(4, 200, 128);
+}
+.column1{
+float: left;
+width: 33.3%;
+padding: 50px;
+padding-left: 120px;
+padding-right: 50px;
+height:500px;
+}
+.column2{
+float: left;
+width: 40%;
+padding-left: 25px;
+padding-right: 10px;
+background-color: rgb(40, 40, 40);
+height:500px;
+color: white;
+}
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.t1{padding-top:30px;}
+.footer {
+background-color: rgb(230, 230, 230);
+text-align: center;
+padding: 50px;
+margin-bottom:10px;
+}
+a.url1:link {color:pink}
+#tt1 {
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+#tt1 td, #tt1 th {
+border: 1px solid #ddd;
+padding: 4px;
+}
+#tt1 tr:nth-child(even){background-color: rgb(40, 40, 40);}
+#tt1 tr:hover {background-color: rgb(0, 100, 100);}
+#tt1 th {
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: left;
+background-color: rgb(40, 40, 40);
+color: white;
+}
+.btn{
+width:60%;
+margin-left: 40px;
+background-color: rgb(4, 150, 125);
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 12px;
+}
+input[type=submit]:hover {background-color: rgb(20, 75, 110);}
+.footer {
+padding: 10px;
+background:whitesmoke;
+margin-top: 20px;
+padding-bottom: 1px;
+}
+.columnfoot {
+float: left;
+width: 33.33%;
+padding: 15px;
+}
+.rowfoot:after {
+content: "";
+display: table;
+clear: both;
+}

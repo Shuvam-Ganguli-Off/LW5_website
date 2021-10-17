@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Me</title>
+	<link rel="stylesheet" href="contactstyle.css">
+</head>
+
+<body>
+	<div class="header">
+		<img class="logo" src="https://cdn.pixabay.com/photo/2012/04/14/16/06/lion-34431_960_720.png" alt="Logo">
+		<h1>SL Lab - Week 5 - Personal Website</h1>
+	</div>
+	
+	<div class="topnav">
+		<a href="home.html"><strong>Home</strong></a>
+		<a href="about.html"><strong>About Me</strong></a>
+		<a href="education.html"><strong>Education</strong></a>
+		<a href="resume.html"><strong>Resume</strong></a>
+		<a href="hobbies.html"><strong>Hobbies</strong></a>
+		<a href="contact.html"><strong>Contact Me</strong></a>
+	</div>
+	<div class="row">
+		<div class="columnleft">
+			<form class="formback" action="">
+				<H1 class="h1">Message for Assistance</H1>
+				
+				<ul style="list-style-type:none;">
+					<p> All fields are mandatory</p>
+					<li>
+						<LABEL for="name"> Name: </LABEL><br>
+						<INPUT type="text" name="name" placeholder="eg: Shuvam Ganguli" required><br><br>
+					</li>
+					<li>
+						<label for:"email">Email:</label><br>
+						<input type="email" name="email" placeholder="eg: abc@gmail.com" required><br><br>
+					</li>
+					<li>
+						<label for:"subject">Subject:</label><br>
+						<input style="width: 50%;" type="text" name="query" placeholder="Subject of Message" required><br><br>
+					</li>
+					<li>
+						<label for:"message">Message:</label><br>
+						<textarea rows="10" cols="100" name="Remarks" placeholder="Enter body of message here" required></textarea><br><br>
+					</li>
+				</ul>
+				
+				<div class="btnall">
+					<input class="btn" type="submit" onclick="alert('Message Sent')" value="Send Message">
+					<input class="btn" type="reset" onclick="alert('Reset Complete')" value="Reset">
+				</div>
+			</form>
+		</div>
+			
+		<div class="columnright content">
+			<h1 class="head"><strong>For further help</strong></h1>
+			<p class="text">You can contact me via these:</p>
+			<ul class="text">
+				<li> Phone: +91 9886963211</li><br>
+				<li> Email: shuvam_201900302@smit.smu.edu.in</li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="rowfoot">
+			<div class="columnfoot">
+				<h2>Home Address</h2>
+				<p>Cooch Behar</p>
+				<p>West Bengal</p>
+				<p>India</p>
+			</div>
+			<div class="columnfoot">
+				<h2>College Address</h2>
+				<p>Majitar, East Sikkim - 737136</p>
+				<p>Sikkim, India</p>
+				<p>E-mail: smit@smu.edu.in </p>
+			</div>
+			<div class="columnfoot">
+				<h2>Contact Details</h2>
+				<p>Name: Shuvam Ganguli</p>
+				<p>E-mail: shuvam_201900302@smit.smu.edu.in</p>
+				<p>Phone: +91 9886963211</p>
+			</div>
+		</div>
+	</div>
+	<MARQUEE><P class='mar'>Being a lab assignment, the contents of this webpage are purely fictional</P></MARQUEE>   
+</body>
+</html>
